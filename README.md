@@ -30,13 +30,22 @@ Bevor du die Projekte bauen kannst, stelle sicher, dass folgende Tools installie
     sudo apt update && sudo apt install nasm
     ```
 
-#### Für das C-Projekt:
-- **GCC**: Ein Compiler für C-Programme.
-  - Installation (Debian/Ubuntu):  
+---
+### Haupt Makefile:
+- Das Haupt Makefile verwaltet alle unter Projekte.
+  - Du musst den Ordner mit dem Haupt Makefile im Terminal öffnen.
+    - Mit diesem Befehl werden alle Unterprojekte gebaut:
     ```bash
-    sudo apt update && sudo apt install gcc
+    make
     ```
-
+    - Mit diesem Befehl werden alle gereinigt:
+    ```bash
+    make clean
+    ```
+    - Und mit diesem kann man ein bestimmtes Unterprojekt bauen:
+    ```bash
+    make -C projects/<project_name>
+    ```
 ---
 
 ## Ordnerstruktur
