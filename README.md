@@ -73,6 +73,7 @@ Bevor du die Projekte bauen kannst, stelle sicher, dass folgende Tools installie
   ```bash
   deactivate
   ```
+  - Die python Datei im Ordner mit dem Makefile ausführen.
 
 ---
 
