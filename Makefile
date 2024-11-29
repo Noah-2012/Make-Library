@@ -1,7 +1,7 @@
 # Haupt-Makefile
 
 # Liste der Unterprojekte
-SUBDIRS = projects/Assembly
+SUBDIRS = projects/Assembly projects/C_to_Linux_Execute
 
 .PHONY: all clean rebuild
 
