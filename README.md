@@ -50,6 +50,32 @@ Bevor du die Projekte bauen kannst, stelle sicher, dass folgende Tools installie
     ```
 ---
 
+#### Update Pythonprogramm:
+- Die python Datei sorgt nur dafür das neue Ordner im projects Ordner im Makefile eingefügt werden.
+  - Bei Linux kann man Pakete nicht über pip installieren. Wäre ja auch viel zu leicht.
+  - Du musst sicher stellen das Python auf deinem System installiert ist.
+  - Damit du jetzt os instalieren kannst(Was benötigt ist um das Python Script auszuführen) musst du folgende Befehle eingeben:
+  ```bash
+  python3 -m venv myenv
+  ```
+  - Das erstellt eine virtuelle Umgebung. Um diese zu aktivieren, diesen Code:
+  ```bash
+  source myenv/bin/activate
+  ```
+  - Nun hast du deine virtuelle Umgebung.
+  - Jetzt müssen wir os installieren:
+  ```bash
+  pip install os
+  ```
+  - Nach der Installation schliessen wir unsere virtuelle umgebung wieder.
+  - Wenn während der Installation irgendwas mit Ja/Nein kommt, mach einfach ja.
+  - Um die Umgebung jetzt zu schliessen, dieser Code:
+  ```bash
+  deactivate
+  ```
+
+---
+
 
 ## Ordnerstruktur
 
