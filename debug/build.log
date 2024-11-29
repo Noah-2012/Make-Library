@@ -1,0 +1,14 @@
+Bereinige alle Projekte...
+Bereinige projects/C_to_Linux_Execute...
+make[1]: Verzeichnis „/home/noadsch12/Schreibtisch/make/projects/C_to_Linux_Execute“ wird betreten
+rm -rf build exe
+make[1]: Verzeichnis „/home/noadsch12/Schreibtisch/make/projects/C_to_Linux_Execute“ wird verlassen
+Bereinige projects/Cpp_to_Linux_Execute...
+make[1]: Verzeichnis „/home/noadsch12/Schreibtisch/make/projects/Cpp_to_Linux_Execute“ wird betreten
+rm -rf build exe
+make[1]: Verzeichnis „/home/noadsch12/Schreibtisch/make/projects/Cpp_to_Linux_Execute“ wird verlassen
+Bereinige projects/Assembly...
+make[1]: Verzeichnis „/home/noadsch12/Schreibtisch/make/projects/Assembly“ wird betreten
+rm -rf build bin exe debug
+make[1]: Verzeichnis „/home/noadsch12/Schreibtisch/make/projects/Assembly“ wird verlassen
+Alle Projekte bereinigt!
