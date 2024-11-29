@@ -50,7 +50,7 @@ Bevor du die Projekte bauen kannst, stelle sicher, dass folgende Tools installie
     ```
 ---
 
-#### Update Pythonprogramm:
+### Update Pythonprogramm:
 - Die python Datei sorgt nur dafür das neue Ordner im projects Ordner im Makefile eingefügt werden.
   - Bei Linux kann man Pakete nicht über pip installieren. Wäre ja auch viel zu leicht.
   - Du musst sicher stellen das Python auf deinem System installiert ist.
