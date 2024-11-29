@@ -31,6 +31,8 @@ Bevor du die Projekte bauen kannst, stelle sicher, dass folgende Tools installie
     ```
 
 ---
+
+
 ### Haupt Makefile:
 - Das Haupt Makefile verwaltet alle unter Projekte.
   - Du musst den Ordner mit dem Haupt Makefile im Terminal öffnen.
@@ -48,6 +50,7 @@ Bevor du die Projekte bauen kannst, stelle sicher, dass folgende Tools installie
     ```
 ---
 
+
 ## Ordnerstruktur
 
 ```plaintext
@@ -60,4 +63,9 @@ make/
 │   │   ├── exe/            # Ausführbare Dateien
 │   │   ├── bin/            # Bin-Dateien
 │   │   ├── Makefile        # Makefile für Assembly-Projekt
+│   ├── C_to_Linux_Execute/ # C Datei in eine für Linux ausführbare Datei umwandeln
+│   │   ├── c/            # C-Quellcode
+│   │   ├── build/          # Kompilierte Dateien
+│   │   ├── exe/            # Ausführbare Dateien
+│   │   ├── Makefile        # Makefile für C_to_Linux_Executable-Projekt
 ├── Makefile                # Haupt-Makefile
