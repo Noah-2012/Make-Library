@@ -1,5 +1,11 @@
 # Makefile-Projekte
 
+---
+
+## WARNUNG: Nur für Linux basierte Systeme.
+
+---
+
 ## Übersicht
 Dieses Repository enthält eine Sammlung von Projekten, die mit `make` verwaltet werden. Jedes Projekt hat ein eigenes Makefile, das speziell auf die Anforderungen des jeweiligen Projekts zugeschnitten ist. Zusätzlich gibt es ein Haupt-Makefile, mit dem alle Projekte zentral verwaltet werden können.
 
