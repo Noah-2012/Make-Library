@@ -83,16 +83,24 @@ Bevor du die Projekte bauen kannst, stelle sicher, dass folgende Tools installie
 ```plaintext
 make/
 ├── projects/
-│   ├── Assembly(Linux)/   # Assembly-Projekt
+│   ├── Assembly(Linux)/    # Assembly-Projekt
 │   │   ├── asm/            # Assembly-Quellcode
 │   │   ├── build/          # Kompilierte Dateien
 │   │   ├── debug/          # Debug-Logs
 │   │   ├── exe/            # Ausführbare Dateien
 │   │   ├── bin/            # Bin-Dateien
 │   │   ├── Makefile        # Makefile für Assembly-Projekt
-│   ├── C_to_Linux_Execute/ # C Datei in eine für Linux ausführbare Datei umwandeln
-│   │   ├── c/            # C-Quellcode
+│   ├── C_to_Linux_Execute/ # C-Projekt
+│   │   ├── c/              # C-Quellcode
 │   │   ├── build/          # Kompilierte Dateien
 │   │   ├── exe/            # Ausführbare Dateien
 │   │   ├── Makefile        # Makefile für C_to_Linux_Executable-Projekt
+│   ├── Cpp_to_Linux_Execute/ # C++-Projekt
+│   │   ├── cpp/            # C++-Quellcode
+│   │   ├── build/          # Kompilierte Dateien
+│   │   ├── exe/            # Ausführbare Dateien
+│   │   ├── Makefile        # Makefile für C++-Projekt
+├── debug/                  # Haupt-Debug-Logs
 ├── Makefile                # Haupt-Makefile
+└── update_makefile.py      # Python-Skript zum Aktualisieren des Haupt-Makefiles
+
