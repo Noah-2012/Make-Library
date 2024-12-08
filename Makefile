@@ -7,7 +7,7 @@ LOGFILE = debug/build.log
 .PHONY: all clean rebuild
 
 # Ziel: Alle Unterprojekte bauen
-all:
+all: display
 	@echo "Baue alle Projekte..." | tee -a $(LOGFILE)
 	@for dir in $(SUBDIRS); do \
 		echo "Betrete $$dir..." | tee -a $(LOGFILE); \
@@ -26,3 +26,12 @@ clean:
 
 # Ziel: Komplett neu bauen
 rebuild: clean all
+
+display:
+	@echo "███╗   ██╗ ██████╗  █████╗ ██╗  ██╗              ██████╗  ██████╗  ██╗██████╗ ";
+	@echo "████╗  ██║██╔═══██╗██╔══██╗██║  ██║              ╚════██╗██╔═████╗███║╚════██╗";
+	@echo "██╔██╗ ██║██║   ██║███████║███████║    █████╗     █████╔╝██║██╔██║╚██║ █████╔╝";
+	@echo "██║╚██╗██║██║   ██║██╔══██║██╔══██║    ╚════╝    ██╔═══╝ ████╔╝██║ ██║██╔═══╝ ";
+	@echo "██║ ╚████║╚██████╔╝██║  ██║██║  ██║              ███████╗╚██████╔╝ ██║███████╗";
+	@echo "╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝              ╚══════╝ ╚═════╝  ╚═╝╚══════╝";
+	@echo "                                     NOAH - 2012                              ";
