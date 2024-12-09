@@ -1,3 +1,21 @@
+###################################################################
+#															      #
+#	Made by: Noah											      #
+#															      #
+#	LOGFILE is the logfile in the debug Folder.				      #
+#	SUBDIRS are the projects in the projects Folder.		      #
+#															      #
+#	Commands:												      #
+#			make "all"             [Make all projects]		      #
+#			make clean             [Clean all projects]		      #
+#			make -C <project>	   [Make one project]		      #
+#			make display		   [Shows my Logo]			      #
+#			make showdr			   [Shows the Subdirs and Logfile]#
+#					  											  #
+#	Make sure you type make by the command.					      #
+###################################################################
+
+
 # Liste der Unterprojekte
 SUBDIRS = projects/C_to_Linux_Execute projects/Cpp_to_Linux_Execute projects/Assembly
 
@@ -35,3 +53,8 @@ display:
 	@echo "██║ ╚████║╚██████╔╝██║  ██║██║  ██║              ███████╗╚██████╔╝ ██║███████╗";
 	@echo "╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝              ╚══════╝ ╚═════╝  ╚═╝╚══════╝";
 	@echo "                                     NOAH - 2012                              ";
+
+showdr:
+	@echo "Subdirs: $(SUBDIRS)"
+	@echo "Logfile: $(LOGFILE)"
+
