@@ -1,18 +1,18 @@
 ###################################################################
-#															      #
-#	Made by: Noah											      #
-#															      #
-#	LOGFILE is the logfile in the debug Folder.				      #
-#	SUBDIRS are the projects in the projects Folder.		      #
-#															      #
-#	Commands:												      #
-#			make "all"             [Make all projects]		      #
-#			make clean             [Clean all projects]		      #
-#			make -C <project>	   [Make one project]		      #
-#			make display		   [Shows my Logo]			      #
-#			make showdr			   [Shows the Subdirs and Logfile]#
-#					  											  #
-#	Make sure you type make by the command.					      #
+#								  #
+#  Made by: Noah						  #
+#								  #
+#  LOGFILE is the logfile in the debug Folder.		          #
+#  SUBDIRS are the projects in the projects Folder.	          #
+#								  #
+#  Commands:						          #
+#	  make "all"             [Make all projects]		  #
+#	  make clean             [Clean all projects]		  #
+#	  make -C <project>      [Make one project]		  #
+#	  make display	         [Shows my Logo]		  #
+#	  make showdr	         [Shows the Subdirs and Logfile]  #
+#					  			  #
+#	Make sure you type make by the command.			  #
 ###################################################################
 
 
