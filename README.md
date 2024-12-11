@@ -56,6 +56,11 @@ Bevor du die Projekte bauen kannst, stelle sicher, dass folgende Tools installie
     ```
 ---
 
+### WARNUNG: DevKitARM, DevKitPPC!
+- Ihr müsst euch DevKitPro herunterladen und die Ordner DevKitARM und DevKitPPC mit in das DevKitPro Verzeichniss mit rein schieben!
+
+---
+
 ### Update Pythonprogramm(update_makefile.py):
 - Die python Datei sorgt nur dafür das neue Ordner im projects Ordner im Makefile eingefügt werden.
   - Bei Linux kann man Pakete nicht über pip installieren. Wäre ja auch viel zu leicht.
