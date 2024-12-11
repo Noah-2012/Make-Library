@@ -13,11 +13,13 @@
 #	  make showdr	         [Shows the Subdirs and Logfile]  #
 #					  			  #
 #	Make sure you type make by the command.			  #
+#								  #
+#	Big big thanks to the Programmer from DevKitPro.	  #
 ###################################################################
 
 
 # Liste der Unterprojekte
-SUBDIRS = projects/C_to_Linux_Execute projects/Cpp_to_Linux_Execute projects/Assembly
+SUBDIRS = projects/C_to_Linux_Execute projects/Cpp_to_Linux_Execute projects/Assembly projects/DevKitPro
 
 # Log-Datei im Debug-Ordner
 LOGFILE = debug/build.log
