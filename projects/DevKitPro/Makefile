@@ -1,31 +1,44 @@
 # Haupt- Makefile für DevKitPro Projekte
-# Setze hier deine devkitpro Pfade ein, falls sie noch nicht gesetzt sind
-DEVKITARM ?= /opt/devkitpro/devkitARM  # Stelle sicher, dass dies korrekt ist
-DEVKITPPC ?= /opt/devkitpro/devkitPPC  # Stelle sicher, dass dies korrekt ist
 
-# Ziel, um Umgebungsvariablen zu setzen und den Bereinigungsvorgang zu starten
-.PHONY: clean
+# Setze hier die DevKitPro-Pfade auf den Ordner, in dem DevKitPro installiert ist
+DEVKITARM ?= projects/DevKitPro/devkitARM      # devkitARM befindet sich im devkitpro Ordner
+DEVKITPPC ?= projects/DevKitPro/devkitPPC      # devkitPPC befindet sich im devkitpro Ordner
 
+.PHONY: all clean set-devkitpro-vars
+
+# Bereinige alle Projekte
 clean:
-	@echo "Bereinige alle Projekte..."
-	# Bereinigung der einzelnen Projekte
-	$(MAKE) -C projects/DevKitPro clean
-
-# Bereinigung der DevKitPro Projekte
-.PHONY: clean-devkitpro
-clean-devkitpro:
 	@echo "Bereinige alle devkitpro Projekte..."
-	$(MAKE) -C projects/DevKitPro/3ds clean
-	$(MAKE) -C projects/DevKitPro/gamecube clean
-	$(MAKE) -C projects/DevKitPro/gba clean
-	$(MAKE) -C projects/DevKitPro/gp32 clean
-	$(MAKE) -C projects/DevKitPro/nds clean
-	$(MAKE) -C projects/DevKitPro/wii clean
+	$(MAKE) -C 3ds clean
+	$(MAKE) -C gamecube clean
+	$(MAKE) -C gba clean
+	$(MAKE) -C gp32 clean
+	$(MAKE) -C nds clean
+	$(MAKE) -C wii clean
 
-# Beim Bereinigen für devkitpro sicherstellen, dass die Umgebungsvariablen gesetzt sind
-.PHONY: set-devkitpro-vars
+# Baue alle Projekte
+all:
+	@echo "Baue alle devkitpro Projekte..."
+	$(MAKE) -C 3ds
+	$(MAKE) -C gamecube
+	$(MAKE) -C gba
+	$(MAKE) -C gp32
+	$(MAKE) -C nds
+	$(MAKE) -C wii
+
+# Setze Umgebungsvariablen für devkitpro
 set-devkitpro-vars:
 	@echo "Setze Umgebungsvariablen für devkitpro"
 	@export DEVKITARM=$(DEVKITARM); \
 	export DEVKITPPC=$(DEVKITPPC); \
 	$(MAKE) clean-devkitpro
+
+# Beispiel für clean-devkitpro (optional, je nach Verwendung)
+clean-devkitpro:
+	@echo "Bereinige DevKitPro..."
+	$(MAKE) -C 3ds clean
+	$(MAKE) -C gamecube clean
+	$(MAKE) -C gba clean
+	$(MAKE) -C gp32 clean
+	$(MAKE) -C nds clean
+	$(MAKE) -C wii clean
