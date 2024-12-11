@@ -2,7 +2,7 @@
 
 ---
 
-## WARNUNG: Nur für Linux basierte Systeme.
+## BIG Thanks to DevKitPro for the Files!
 
 ---
 
