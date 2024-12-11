@@ -9,9 +9,6 @@ DEVKITPPC ?= /opt/devkitpro/devkitPPC  # Stelle sicher, dass dies korrekt ist
 clean:
 	@echo "Bereinige alle Projekte..."
 	# Bereinigung der einzelnen Projekte
-	$(MAKE) -C projects/C_to_Linux_Execute clean
-	$(MAKE) -C projects/Cpp_to_Linux_Execute clean
-	$(MAKE) -C projects/Assembly clean
 	$(MAKE) -C projects/DevKitPro clean
 
 # Bereinigung der DevKitPro Projekte
