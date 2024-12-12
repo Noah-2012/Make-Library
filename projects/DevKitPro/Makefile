@@ -1,8 +1,8 @@
 # Haupt- Makefile für DevKitPro Projekte
 
 # Setze hier die DevKitPro-Pfade auf den Ordner, in dem DevKitPro installiert ist
-DEVKITARM ?= projects/DevKitPro/devkitARM      # devkitARM befindet sich im devkitpro Ordner
-DEVKITPPC ?= projects/DevKitPro/devkitPPC      # devkitPPC befindet sich im devkitpro Ordner
+DEVKITARM ?= devkitARM      # devkitARM befindet sich im devkitpro Ordner
+DEVKITPPC ?= devkitPPC      # devkitPPC befindet sich im devkitpro Ordner
 
 .PHONY: all clean set-devkitpro-vars
 
