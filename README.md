@@ -2,7 +2,7 @@
 
 ---
 
-## BIG Thanks to DevKitPro for the Files!
+## WARNUNG: Eigentlich für Linux aber unter Windows geht es auch. 
 
 ---
 
