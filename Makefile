@@ -14,7 +14,7 @@
 #					  			  #
 #	Make sure you type make by the command.			  #
 #								  #
-#	Big big thanks to the Programmer from DevKitPro.	  #
+#	                                                   	  #
 ###################################################################
 
 
