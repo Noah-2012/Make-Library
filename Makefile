@@ -19,7 +19,7 @@
 
 
 # Liste der Unterprojekte
-SUBDIRS = projects/C_to_Linux_Execute projects/Cpp_to_Linux_Execute projects/Assembly projects/DevKitPro
+SUBDIRS = projects/C_to_Linux_Execute projects/Cpp_to_Linux_Execute projects/Assembly
 
 # Log-Datei im Debug-Ordner
 LOGFILE = debug/build.log
